@@ -9,7 +9,7 @@
   "batch_size": 256,
   "n_clusters": 10,
   "ae_epochs": 200,
-  "dec_epochs": 300,
+  "dec_epochs": 3000,
   "noise": 0.23,
   "hidden": 10,
   "seed": 0,
