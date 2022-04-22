@@ -51,9 +51,8 @@ def train(model, num_epochs, path):
     data = torch.Tensor(dataset.x).to(device)
     labels = dataset.y
     train_loader = DataLoader(dataset, batch_size=param['batch_size'], shuffle=True)
-    # 修改了
-    optimizer = torch.optim.SGD(model.parameters(), lr=1e-1, momentum=0.99)
-    
+   
+    optimizer = torch.optim.Adam(model.parameters(), lr=param['lr'])
     optimizer_iso = torch.optim.Adam(model.parameters(), lr=param['lr'])
     Loss = GCML_Loss(param)
 
