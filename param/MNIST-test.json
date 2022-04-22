@@ -8,7 +8,7 @@
   "lr": 0.001,
   "batch_size": 256,
   "n_clusters": 10,
-  "ae_epochs": 200,
+  "ae_epochs": 500,
   "dec_epochs": 300,
   "noise": 0.2,
   "hidden": 10,
