@@ -20,5 +20,5 @@
     1.0,
     1.0
   ],
-  "pretrain_ae": 1
+  "pretrain_ae": 0
 }
